@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/color_card_size"
+    android:layout_height="@dimen/color_card_size"
+    android:layout_gravity="center"
+    android:id="@+id/card_bg"
+    tools:cardBackgroundColor="#2c2c2c">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/colorView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="24dp"
+        tools:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="24dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/checkIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            app:srcCompat="@drawable/baseline_check_24"
+             />
+    </androidx.cardview.widget.CardView>
+
+</androidx.cardview.widget.CardView>
